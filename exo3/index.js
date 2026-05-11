@@ -22,6 +22,7 @@ const Deletebutton = document.querySelector("#Delete");
 function DeleteCard() {
   Result.innerHTML = `<div></div>`;
 }
+
 infoForm.addEventListener("submit", (e) => CardGenerator(e));
 
 Deletebutton.addEventListener("click", () => DeleteCard());
